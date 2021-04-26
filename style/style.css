@@ -1,0 +1,316 @@
+html{
+    height: 100%; 
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font: normal 0.80em arial, sans-serif; 
+    background: #fff;
+    color: #555;
+}
+
+p {
+    font: normal 120% arial, sans-serif; 
+    padding: 10px 0 10px 0;
+    line-height: 1.7em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: normal 150% 'century gothic', arial, sans-serif; 
+    color: #111;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+}
+
+h2 {
+    color: #111;
+    font: normal 150% 'century gothic', arial, sans-serif;
+    padding: 15px 0 0 0;
+}
+
+h4, h5, h6 {
+    margin: 0;
+    padding: 0 0 5px 0;
+    font: normal 90% arial, sans-serif;
+    color: #555;
+}
+
+h5, h6 {
+    font: normal 145% arial, sans-serif;
+    padding: 10px 0 0 0;
+    color: #000;
+
+}
+
+h6 {
+    color: #888;
+}
+
+a, a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+ul li {
+    margin: 5px 0 6px 0;
+}
+
+#main, #title, #menubar, #site_content, #footer { 
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+#header {
+    width:100%;
+    background:rgb(15, 38, 73);
+    position: relative;
+}
+
+#header_text {
+    left: 40px;
+}
+
+#header h1, #header h2 {
+    font: normal 300% 'Times';
+    border-bottom: 0;
+    text-transform: none;
+    margin-left: 40px;
+}
+
+#header_text h1, #header_text h1 a, #header_text h1 a:hover {
+    padding: 50px 0 0 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#header_text h2 {
+    left: 40px;
+    padding: 5px;
+    color: rgb(248, 248, 249);
+    font: italic 230% arial;
+    margin-bottom: 0;
+}
+
+#menubar, #menubar_top {
+    width: 100%;
+    height: 55px;
+    padding: 5px 0 0 50px;
+    position: fixed;
+    z-index: 1;
+    float: right;
+    background: rgb(15, 38, 73);
+}
+
+#menubar_top {
+    position: relative;
+}
+
+#menu li, #menubar_top li{
+    float: right;
+}
+
+#menu li a, #menubar_top li a {
+    letter-spacing: .03em;
+    font-size: 150%;
+    height: 55px;
+    margin: 90px 100px 0 0;
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
+
+#menubar_top li a { 
+    margin: 100px 70px 0 0;
+}
+
+#title {
+    width: 100%;
+    position: relative;
+    height: 675px;
+    text-align: center;
+    padding: 335px 0 0 0;
+}
+
+#title_text h1, #title_text h2 {
+    font: normal 610% arial;
+    border-bottom: 0;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#title_text h2 {
+    padding-top: 55px;
+    font: italic 320% arial;
+}
+
+#site_content {
+    width: 75%;
+    font: normal 140% arial;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#site_content h3 {
+    font: bold 240% arial;
+    text-align: center;
+}
+
+#initial, #us-initial {
+    margin-top: 50px;
+}
+
+#global {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#global h4, #usa h4 {
+    font: bold 180% arial;
+}
+
+#global p a, #overview p a {
+    color: #888;
+}
+
+#about_content {
+    padding: 20px 0 0 0;
+}
+
+#about_site_content {
+    width: 100%;
+    font: normal 180% arial;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#about_content a  {
+    color: #888;
+}
+
+#about_content h3 {
+    font: normal 130% arial, sans-serif; 
+    color: #111;
+    margin: 0 0 5px 0;
+    padding: 10px 0 0 0;
+}
+
+#about_content h4 {
+    padding: 0 0 5px 0;
+    font: normal 80% arial, sans-serif;
+    color: rgb(59, 57, 57);
+}
+
+#about_content p a {
+    text-decoration: underline;
+}
+
+#about_content p {
+    margin: 15px 0 0 0;
+    padding: 0 0 25px 0;
+    font: normal 70% arial, sans-serif;
+    color: #555;
+}
+
+#about_content a:hover {
+    text-decoration: underline;
+}
+
+#about h4 {
+    font: italic 80% arial;
+}
+
+#sources {
+    margin-top: 10px;
+}
+
+#sources p {
+    margin-left: 50px;
+    padding: 0 0 20px 0;
+}
+
+#content_footer {
+    margin-top: 100px;
+}
+
+#about_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+#footer {
+    width: 100%;
+    height: 50px;
+    padding: 15px 0 0 0;
+    text-align: center;
+    background: rgb(15, 38, 73);
+    font-size: 100%;
+}
+
+#footer a , #footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#top-cities-select, #top-states-select {
+    margin-top: 120px;
+}
+
+#btn { 
+    width: 150px;
+    height: 40px;
+    float: right;
+    font: bold 19px arial;
+    margin-right: -15px;
+    background-color: rgb(247, 248, 249);
+    outline: #000;
+    color:rgb(16, 16, 45);
+}
+
+#btn:hover {
+    background-color: rgb(188, 203, 219);
+}
+
+#global p, #usa p {
+    font: normal 135% arial, sans-serif; 
+    padding: 70px 0 10px 0;
+    line-height: 1.7em;
+    text-align: center;
+}
+
+#global p a, #usa p a {
+    text-decoration: bold;
+    color: #888;
+
+}
+
+#initial {
+    margin: 70px 0 0 0;
+}
+
+.tableauPlaceholder {
+    margin: 50px 0 50px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#usa h3 {
+    margin-top: 125px;
+}
+
+.chart {
+    margin-top: 100px;
+}

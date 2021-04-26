@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Summary on Terrorism</title>
+    <link rel='stylesheet' href='style/style.css'>
+    <script src="https://kit.fontawesome.com/e0bdcd9348.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div id='main'>
+            <div id='header'>
+                <div id='header_text'>
+                    <h1><a href='index.html'>A VISUAL ANALYSIS OF TERRORISM</a></h1>
+                    <h2>A Look At Terrorist Activity in the Global and US Contexts</h2>
+                </div><!-- header_text -->
+                <div id='menubar_top'>
+                    <ul id='menu_top'>
+                        <li><a href='sources.html'>About</a></li>
+                        <li><a href='us.html'>United States</a></li>
+                        <li><a href='index.html#global'>Global</a></li>
+                        <li><a href='index.html#overview'>Overview</a></li>
+                        <li><a href='index.html#title'>Home</a></li>
+                    </ul><!-- menu -->
+                </div><!-- menubar -->
+            </div><!-- header -->
+        </div> <!-- main -->
+    </header>
+
+
+    <section>
+        <div id='site_content' class='content'>
+            <div id='us-initial'>
+                <br>
+                <br>
+            </div><!-- us-initial -->
+            <div id='usa'>
+                <div id='map-us' class='chart' style='margin-top: 110px;'>
+                    <h4>Terror in the US, 2009-2021</h4>
+                    <div class='tableauPlaceholder' id='viz1618805421010' style='position: relative'><noscript><a
+                                href='#'><img alt='US Attacks '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TH&#47;TH36WZDJ6&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz'
+                            style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='path' value='shared&#47;TH36WZDJ6' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TH&#47;TH36WZDJ6&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en' />
+                        </object></div>
+                    <script
+                        type='text/javascript'> var divElement = document.getElementById('viz1618805421010'); var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.65) + 'px'; var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+                    <p>
+                        Orlando, Florida had the greatest number of deaths over the last decade with 49 lives lost
+                        to the terrorist attack on June 12, 2016 at the
+                        Pulse nightclub shooting.
+                        <br>
+                        The second deadliest attack occured in El Paso, Texas on August 3, 2019.
+                    </p>
+                </div> <!-- map-us-->
+                <div id='states-us-bar' class='chart'>
+                    <div id="top-states-select" class="form-control">
+                        <button id='btn' onclick="updateState('Instances')">Instances</button>
+                        <button id='btn' onclick="updateState('Kills')">Deaths</button>
+                    </div>
+                    <div id='chart-area-state' style='margin-left: auto; margin-right: auto;'></div>
+                    <br>
+                    <p>
+                        California and New York were the most prone to terrorism, which makes sense as these are
+                        states with some of the most dense cities in the country.
+                    </p>
+                </div> <!-- states-us-bar -->
+                <div id='cities-us-bar' class='chart' style='margin-top: 60px;'>
+                    <p>
+                        Unsurprisingly, then, New York City has had the most incidences among all other cities. D.C.
+                        follows. Arlington, VA, albiet not as dense
+                        as many of the other cities on the list, is among the least in the top 15 cities, likely due
+                        to
+                        its proximity to the capital.
+                    </p>
+                    <div id="top-cities-select" class="form-control">
+                        <button id='btn' onclick="updateCity('Instances')">Instances</button>
+                        <button id='btn' onclick="updateCity('Kills')">Deaths</button>
+                    </div>
+                    <div id='chart-area-city' style='margin-left: auto; margin-right: auto;'></div>
+                </div> <!-- cities-us-bar -->
+
+                <div id='instances-fatalities-year' class='chart' style="margin-top: 210px">
+                    <div class='tableauPlaceholder' id='viz1618805633262' style='position: relative'><noscript><a
+                                href='#'><img alt='Attacks &amp; Fatalities by Year '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;FatalitiesbyYear&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz'
+                            style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='TerrorismActivity&#47;FatalitiesbyYear' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;FatalitiesbyYear&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en' />
+                        </object></div>
+                    <script
+                        type='text/javascript'> var divElement = document.getElementById('viz1618805633262'); var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.65) + 'px'; var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+                    <p>
+                        Observing fatalities through the decade, 2016 was the deadliest year in the United States as
+                        a results of extremism, though 2020 in fact had
+                        the most attacks. This is doubtlessly correlated to the exogenous shocks of 2020, such as
+                        the pandemic, presidential election, and the unrest over
+                        police brutality...
+                    </p>
+                </div> <!-- instances-fatalities-year -->
+
+                <div id='target-groups-year' class='chart' style="margin-top: 70px;">
+                    <p>
+                        And we can see that. In 2020, the majority of attacks were indeed targeted at governemnt and
+                        police as well as demonstrators. While private individuals tend to
+                        be common targets over the years, it relatively constituted a low portion of attacks in
+                        2020. Religious institutions also saw the least attacks relative
+                        to recent years.
+                    </p>
+                    <div class='tableauPlaceholder' id='viz1618806021088' style='position: relative'><noscript><a
+                                href='#'><img alt='Targeted Groups by Year '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;TargetedGroupsbyYear&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz'
+                            style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='TerrorismActivity&#47;TargetedGroupsbyYear' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;TargetedGroupsbyYear&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en' />
+                        </object></div>
+                    <script
+                        type='text/javascript'> var divElement = document.getElementById('viz1618806021088'); var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.65) + 'px'; var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+                </div> <!-- target-groups-year -->
+
+                <div id='targets-pie' class='chart' style="margin-top: 130px;">
+                    <br>
+                    <div class='tableauPlaceholder' id='viz1618805840700' style='position: relative'><noscript><a
+                                href='#'><img alt='Targets '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;Targets&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz'
+                            style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='TerrorismActivity&#47;Targets' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;Targets&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en' />
+                        </object></div>
+                    <script
+                        type='text/javascript'> var divElement = document.getElementById('viz1618805840700'); var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.45) + 'px'; var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+                    <p>
+                        Among all type of targets, individuals were indeed the most common victims.
+                        <br>
+                    </p>
+                </div> <!-- targets-pie -->
+
+                <div id='subtarget-bubble' class='chart'>
+                    <div class='tableauPlaceholder' id='viz1618806168237' style='position: relative'><noscript><a
+                                href='#'><img alt='Most Targeted Groups '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;MostTargetedGroups&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz'
+                            style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='TerrorismActivity&#47;MostTargetedGroups' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;MostTargetedGroups&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en' />
+                        </object></div>
+                    <script
+                        type='text/javascript'> var divElement = document.getElementById('viz1618806168237'); var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.65) + 'px'; var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+                    <p>
+                        The plot above and the chart below both show frequent victims of terrorists in more detail.
+                        As we can see, Black and African American individuals
+                        have been the most targeted individuals.
+                        <br>
+                        Muslim individuals have been the second most.
+                    </p>
+                </div> <!-- subtarget-bubble -->
+
+                <div id='attacks-extremists-bar' class='chart' style="margin-top: 75px;">
+                    <p>
+                        As we would expect, using the chart below, we can see that white supremacists have been the
+                        greatest perpetrators of these attacks. In fact, when
+                        selecting white supremacists, the data shows us that they can actually been the most
+                        aggressive to various groups of victims -- incuding other white
+                        individuals.
+                    </p>
+                    <div class='tableauPlaceholder' id='viz1618806277511' style='position: relative'><noscript><a
+                                href='#'><img alt='Frequency of Attacks by Type of Extremists '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;AttacksbyExtremists&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz'
+                            style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='TerrorismActivity&#47;AttacksbyExtremists' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;AttacksbyExtremists&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en' />
+                        </object></div>
+                    <script
+                        type='text/javascript'> var divElement = document.getElementById('viz1618806277511'); var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width = '95%'; vizElement.style.height = (divElement.offsetWidth * 0.60) + 'px'; var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+
+                </div> <!-- attacks-extremists-bar -->
+
+                <div id='targets-map' class='chart'>
+                    <p>
+                        So where do these group of victims more often get attacked?
+                        <br>
+                        <br>
+                        Adding a layer to show Black and African American populations across the country, we see
+                        that there is a correlation between attacks and Black populations.
+                        This layer can also be used as a proxy for population density of hispanic and asian minority
+                        groups as well. States with more minority groups are states with
+                        more diversity and greater general population, therefore probability suggests these states
+                        would be the most suseptible to attacks. Nonetheless, this map does
+                        support the findings from the previous charts, that Black communities are the most
+                        victimized groups in the US.
+                        <br>
+                        <br>
+                        This map also shows us where all the attacks on houses of worship have taken place. As noted
+                        by <a
+                            href='https://www.washingtonpost.com/investigations/interactive/2021/domestic-terrorism-data/'>
+                            The Washington Post</a>, "Dozens of religious institutions — including mosques,
+                        synagogues and Black churches ... have been threatened, burned, bombed and hit with gunfire
+                        over the past six years."
+                    </p>
+                    <div class='tableauPlaceholder' id='viz1618805940256' style='position: relative'><noscript><a
+                                href='#'><img alt='Map of Target Attacks '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;MapofTargetAttacks&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz'
+                            style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='TerrorismActivity&#47;MapofTargetAttacks' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;MapofTargetAttacks&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en' />
+                        </object></div>
+                    <script
+                        type='text/javascript'> var divElement = document.getElementById('viz1618805940256'); var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.65) + 'px'; var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+
+                </div> <!-- targets-map -->
+                <br>
+                <div id='weapon-bar' class='chart'>
+                    <div class='tableauPlaceholder' id='viz1618806354373' style='position: relative'><noscript><a
+                                href='#'><img alt='Weapon Choice '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;WeaponChoice&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz'
+                            style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='TerrorismActivity&#47;WeaponChoice' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;WeaponChoice&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en' />
+                        </object></div>
+                    <script
+                        type='text/javascript'> var divElement = document.getElementById('viz1618806354373'); var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width = '95%'; vizElement.style.height = (divElement.offsetWidth * 0.60) + 'px'; var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+                    <p>
+                        Just as in the global scale, terrorist groups in the United States tend to prefer the use of
+                        explosives, as well as armed attacks. In fact, according
+                        to the chart, explosives have been used more than all other weapons except firearms
+                        combined.
+                    </p>
+                </div> <!-- weapon-bar -->
+
+                <div id='social-media-wordcloud' class='chart'>
+                    <div class='tableauPlaceholder' id='viz1618806509429' style='position: relative'><noscript><a
+                                href='#'><img alt='Social Media '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;SocialMedia&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz'
+                            style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='TerrorismActivity&#47;SocialMedia' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TerrorismActivity&#47;SocialMedia&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en' />
+                        </object></div>
+                    <script
+                        type='text/javascript'> var divElement = document.getElementById('viz1618806509429'); var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.45) + 'px'; var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+                    <p>
+                        And finally, the data shows that the most common form of social media these terrorist groups
+                        used to communicate were Facebook, encrypted chats, instagram,
+                        and youtube. However, they mainly used a variety of these channels to do so.
+                    </p>
+                </div> <!-- social-media-wordcloud -->
+            </div><!-- usa -->
+        </div><!-- site_content -->
+
+    </section>
+
+    <footer>
+        <div id='content_footer'>
+            <div id='footer'>
+                &copy;
+                <script style='color: rgb(117, 117, 117);'>var d = new Date(); document.write(d.getFullYear())</script>
+                <a href='http://validator.w3.org/check?uri=referer'>HTML5</a>
+                <a href='http://jigsaw.w3.org/css-validator/check/referer'>CSS3</a>
+                <a style='color: rgb(117, 117, 117);'>| Stefani Guevara</a>
+            </div><!-- footer -->
+        </div><!-- content_footer -->
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src='js/d3.min.js'></script>
+    <script src='js/d3-tip.js'></script>
+    <script src='js/states.js'></script>
+    <script src='js/cities.js'></script>
+    <!-- <script src='js/to-top.js'></script> -->
+</body>
+
+</html>
